@@ -17,9 +17,9 @@ int main () {
     int first_num; 
     int seconnd_num;
     int operation;
-    printf("enter first num:")
+    printf("Please input first num:")
     scanf("%d, &first_num");
-    printf("enter second num");
+    printf("pleasse input second num");
     scanf("%d, &second_num");
     printf("entr operation num");
     scanf("%d, &operation");
