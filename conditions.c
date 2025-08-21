@@ -14,13 +14,13 @@ if operation == 4 => peerform div of first_num and second-num
 //int is the return type of main function 
 int main () {
     //variables declare
-    int first_num; 
-    int seconnd_num;
+    float first_num; 
+    float seconnd_num;
     int operation;
     printf("Please input first num:")
-    scanf("%d, &first_num");
-    printf("pleasse input second num");
-    scanf("%d, &second_num");
+    scanf("%f, &first_num");
+    printf("please input second num");
+    scanf("%f, &second_num");
     printf("entr operation num");
     scanf("%d, &operation");
 
@@ -33,14 +33,14 @@ int main () {
     // ln -> new line [escape sequence]
     // lt -> tab
         if (operation == 1 ){
-            printf("Result of addition: %d\n", first_num + second_num);
+            printf("Result of addition: %f\n", first_num + second_num);
         }
 
         if (operation == 2){
-            printf("Result of sub: %d\n", first_num + second_num);
+            printf("Result of sub: %f\n", first_num + second_num);
         }
         if (operation == 3 ){
-            printf("Result of mul: %d\n", first_num + second_num);
+            printf("Result of mul: %f\n", first_num + second_num);
         }
          if (operation == 4 ){
             //%d is conversion specifier for integer
